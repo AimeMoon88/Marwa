@@ -1,0 +1,69 @@
+ body{
+    width: 100%;
+    margin: 0 ;
+    background-color:rgb(255, 255, 255);
+  }
+ 
+  .pos-f-t {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(65, 73, 71); 
+    color: white;
+
+    
+}
+.navbar navbar-expand-lg navbar-light bg-light {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  color: white;
+}
+
+
+
+
+
+
+
+  ul{
+    list-style-type: none;
+    text-decoration:none;
+    margin: auto;
+
+  }
+
+ul li{
+   float: left;
+   width: 100px;
+   height: 40px;
+   font-family: 'Anton', sans-serif;
+   text-decoration:none;
+  
+}
+
+
+ul li a{
+  text-decoration:none;
+  
+ 
+}
+.nav-link{
+  color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:rgb(255,255,255) ;
+}
+.card-img-top{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+.logocenter{
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
